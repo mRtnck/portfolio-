@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+*{
+    margin: 0; padding: 0;
+}
+body{
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #02539D;
+}
+.top{
+   background-color: rgba(0, 0, 0, 0.250);color: aliceblue;
+    width: 100vw; height: 50px;
+}
+.top>div>h1{
+    text-indent: 1em;
+}
+.menu{
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-weight: 500;
+    display: flex;
+    gap: 1.5em ;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -1.5em;
+    margin-left: 2em;
+}
+li{
+    list-style-type: none;
+}
+.content{
+    width: 100vw;height: auto;
+}
+.fcon{
+    text-align: center;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.fcon>p>img{
+    width: 500px;
+}
+.tcon{
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-size: 1.2rem; color: aliceblue;
+    text-align: justify;
+    margin-left: 2em;margin-right: 2em;
+}
+div.tcon>p{
+    text-indent: 30px;
+}
+.txt{
+    color: aliceblue;
+
+}
+#me{
+    width: 95vw ;
+    align-items: center;
+}
+.scriper{
+    color: gold;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.line{
+    display: flex;
+}
+.line>hr{
+    margin: auto;
+    width: 80vw;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container .image {
+    width: 50%; 
+  }
+  .container img {
+    width: calc(100% - (10px * 2));
+    margin: 10px;
+  }
+   .gg-facebook {
+ box-sizing: border-box;
+ position: relative;
+ display: block;
+ transform: scale(var(--ggs,1));
+ width: 20px;
+ height: 20px
+}
+.but{
+    display: flex;
+    color: aliceblue;
+}
